@@ -1,0 +1,35 @@
+{
+    "name": " Golpher Sweeper",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "small-tilemaps": "github:riknoll/small-tilemaps#v0.0.1",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.10.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.3.31",
+        "tag": "v1.3.31",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/567d65348744b8e411837e4223bab2942df94f6f",
+        "target": "1.3.34",
+        "pxt": "6.8.16",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
